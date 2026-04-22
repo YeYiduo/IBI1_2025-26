@@ -1,0 +1,6 @@
+question:What was the distribution of DALYs across all countries in 2006?
+The question is addressed in line 52 of the code.
+Results: The pie chart shows the distribution of DALYs across the top 10 highest-burden countries 
+in 2006. Lesotho and Eswatini had the largest shares at 12.4% each, followed by the Central African 
+Republic (11.4%) and Zimbabwe (10.7%). All top 10 countries were African nations, reflecting a highly 
+concentrated disease burden in Southern Africa and significant global health inequality.
