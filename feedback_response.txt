@@ -2,10 +2,9 @@ Dear all,
 
 I'm writing to share my responses to the recent feedback we recevied as a Course Team at the Staff-Student Liaison Commitee (SSLC). I'd like to thank the student reps for attending the meeting and to all of you for considering your thoughts on this course. Your opinions are important to us. 
 
-Firstly, I was disappointed to hear that students felt there was a big gap between what is taught in lectures and what they are expected to do in the practicals, meaning that many students had to resorted to using genAI tools to complete the practical work. We have carefully designed the practicals such that each exercise can be solved using only the code we introduced in the lecture earlier in the week. As the course proceeds, you may need to rely on previous weeks' learning as the challenges become increasingly complex. I would strongly recommend that you plan your work using pseudocode and then look back through the materials we have provided to answer this, before turning to genAI. If you are genuinely stuck, you can always ask the teachers in the classroom. 
+Firstly, I was disappointed to hear that [redacted].
 
-You also told us that the paired programming approach was not working well with one student doing the other coding and the other simply watching. I have discussed this with other teachers on the course and we respectuflly disagree that this is not a helpful strategy. In fact, we have already noticed a much higher degree of engagement in this class since we started programming in pairs and we see that you are solving each others' problems because you bring far fewer questions to us. It may seem in the room like one person is not working, but we can hear the conversations and see you explaining your work to each other - which will be helpful in consolidating your coding skills for IBI1 and beyond. 
+You also told us [redated].
 
 Best wishes,
-
 Rob
