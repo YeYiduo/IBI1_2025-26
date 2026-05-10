@@ -1,0 +1,4 @@
+This practical helped me learn basic Git commands including init, add, commit, branch, merge, clone, push.
+I understand how version control works and how to use GitHub to manage projects.
+The most challenging part was merging branches and solving conflicts.
+I feel more confident using Git and GitHub now.
