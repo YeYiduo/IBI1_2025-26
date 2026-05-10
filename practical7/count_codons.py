@@ -1,7 +1,6 @@
 import re
 import matplotlib.pyplot as plt
 
-# 读取FASTA（保持多行）
 def read_fasta(filename):
     genes = {}
     current_header = None
@@ -23,11 +22,11 @@ def read_fasta(filename):
             genes[current_header] = '\n'.join(current_seq)
     return genes
 
-# 找到【最长ORF】的终止密码子位置
+#  find the longest ORF stop codon position
 def find_longest_orf_stop(seq, target_stop):
     max_len = 0
     best_pos = -1
-    seq = seq.replace('\n', '')  # 去掉换行方便分析
+    seq = seq.replace('\n', '')  
 
     for frame in range(3):
         for i in range(frame, len(seq)-2, 3):
@@ -43,7 +42,7 @@ def find_longest_orf_stop(seq, target_stop):
                         break
     return best_pos
 
-# 统计上游所有in-frame密码子
+# Caculate all in-frame codons upstream of the stop codon
 def get_upstream_codons(seq, stop_pos):
     codons = []
     seq = seq.replace('\n', '')
@@ -51,16 +50,16 @@ def get_upstream_codons(seq, stop_pos):
         codons.append(seq[i:i+3])
     return codons
 
-# ------------------- 主程序 -------------------
+# main
 filename = "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
 genes = read_fasta(filename)
 
-# 1. 输入终止密码子
+#  input stop codon
 target = input("Enter stop codon (TAA/TAG/TGA): ").strip().upper()
 
 all_codons = []
 
-# 遍历每个基因
+# For each gene, find the longest ORF stop codon position and get all in-frame codons upstream of it. Then count the occurrences of each codon and plot a pie chart.
 for header, seq in genes.items():
     pos = find_longest_orf_stop(seq, target)
     if pos == -1:
@@ -68,17 +67,17 @@ for header, seq in genes.items():
     codons = get_upstream_codons(seq, pos)
     all_codons.extend(codons)
 
-# 统计数量
+# Caculate the frequency of each codon
 count = {}
 for c in all_codons:
     count[c] = count.get(c, 0) + 1
 
-# 输出结果
+# Output the results
 print("\nCodon counts upstream of", target)
 for codon, num in sorted(count.items()):
     print(f"{codon}: {num}")
 
-# 3. 画饼图并保存
+# 3. Plot a pie chart of the codon distribution
 labels = list(count.keys())
 sizes = list(count.values())
 
