@@ -1,0 +1,13 @@
+This practical was really fun and easier to follow than I expected. I started by building a basic 
+stochastic SIR model, and I was surprised to see that the results looked different every time I ran it
+ because it uses random probabilities. It was cool to watch the number of susceptible, infected, and 
+recovered people change over time in the plot.
+Adding vaccination was my favourite part. I could clearly see how higher vaccination rates lowered
+ the infection peak and eventually stopped the disease from spreading. It helped me really understand
+ how herd immunity works in real life.
+The 2D spatial SIR model was the most challenging part. I had to be careful with the grid edges,
+ infecting only 8 neighbours, and plotting multiple heatmaps to show the spread over time. Once I 
+fixed the code, it was really satisfying to see the disease spread and then fade out across the map.
+Overall, I learned a lot about using Python to model real‑world problems. I got more comfortable 
+with numpy loops and plotting graphs. This practical made computational biology feel practical 
+and easy to understand.
