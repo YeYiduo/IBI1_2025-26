@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib . pyplot as plt
+import matplotlib.pyplot as plt
 N=10000
 beta=0.3
 gamma=0.05
