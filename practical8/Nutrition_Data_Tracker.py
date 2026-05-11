@@ -1,5 +1,5 @@
 class food_item:
-    def __init__(self, name, calories, carbohydrates, protein, fat):
+    def __init__(self, name, calories, protein, carbohydrates, fat):
         self.name = name
         self.calories = calories
         self.carbohydrates = carbohydrates
