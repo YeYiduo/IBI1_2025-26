@@ -1,0 +1,19 @@
+I have carefully reviewed the feedback for Weeks 3–5 and made all the required improvements as follows.
+
+Week 3
+- Created and published my personal GitHub page (<username>.github.io) with proper formatted content different from the template.
+- Forked the IBI1_2025-26/Practical3 repository correctly.
+- Added Introductions.txt and edited it with personal information.
+- Added Reflection.txt with personal reflections on the practical.
+- Improved commit messages to be more detailed and informative for all submissions.
+
+Week 4
+- Added a comment in variables.py to clearly state which variable (d or e) is larger.
+- Added the complete truth table as a comment for the logical expression.
+- Corrected the explanation in mystery_code.py to state that it sums 11 random numbers, not 10.
+- Improved the error message in creatine_clearance.py to show which input is invalid immediately, so the user can identify the issue clearly.
+
+Week 5
+- Renamed all Python script files to remove spaces for better coding practice.
+
+All the issues pointed out in the feedback have been fixed.
